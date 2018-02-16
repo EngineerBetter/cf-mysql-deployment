@@ -12,7 +12,7 @@ instance_groups:
   instances: 2
   azs: [z1, z2]
   networks: [{name: default}]
-  vm_type: default
+  vm_type: massive
   stemcell: default
   persistent_disk: 10000
   jobs:
